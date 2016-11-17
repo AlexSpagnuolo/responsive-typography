@@ -42,6 +42,10 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin-top: 1.3rem;
+}
+
 article header p {
   font-style: italic;
   margin-top: 0;
@@ -69,13 +73,19 @@ article ol {
   margin-top: 1.3rem;
 }
 
-article p {
-  margin-top: 1.3rem;
-}
-
 @media only screen and (min-width: 38em) {
 
   blockquote {
     margin-left: 5rem;
   }
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article > p:nth-of-type(1) {
+    margin-top: 2rem;
+  }
+
 }
