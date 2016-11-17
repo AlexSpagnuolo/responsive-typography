@@ -20,6 +20,10 @@ html {
 
 article {
   max-width: 43em;
+  width: 100%;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
 article h1 {
