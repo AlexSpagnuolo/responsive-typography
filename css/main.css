@@ -22,6 +22,7 @@ html {
 body {
   margin: 0;
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 article {
@@ -34,7 +35,7 @@ article {
 article h1 {
   font-weight: normal;
   margin-bottom: 0;
-  margin-top: 1.5rem;
+  margin-top: 1.3rem;
 }
 
 article header {
@@ -44,7 +45,7 @@ article header {
 article header p {
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
@@ -62,9 +63,14 @@ blockquote {
   color: #999;
 }
 
-article > ol {
+article ol {
   padding: 0;
   margin-left: 1rem;
+  margin-top: 1.3rem;
+}
+
+article p {
+  margin-top: 1.3rem;
 }
 
 @media only screen and (min-width: 38em) {
